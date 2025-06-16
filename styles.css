@@ -1,0 +1,207 @@
+/* Reset dan font dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f7fa;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+#hero {
+  background: linear-gradient(135deg, #e3f2fd, #ffffff);
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.hero-text {
+  max-width: 500px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.subheading {
+  font-size: 1.3rem;
+  color: #007aff;
+  margin-bottom: 15px;
+}
+
+.description p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.cta-btn {
+  background-color: #007aff;
+  color: white;
+  padding: 14px 28px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #005bb5;
+}
+
+/* Kenapa Pilih MacBook Air M4 Section */
+#kenapa-pilih {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#kenapa-pilih h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.kenapa-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.kenapa-item {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.kenapa-item img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.kenapa-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+/* Product Slider */
+#product-slider {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#product-slider h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slider-item {
+  flex: 0 0 auto;
+  width: 250px;
+  text-align: center;
+  scroll-snap-align: start;
+}
+
+.slider-item img {
+  width: 100%;
+  height: auto;
+  max-width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+.product-link {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Call to Action */
+#purchase {
+  background-color: #007aff;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-banner h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #87cefa;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+#video {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#video h2 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.video-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
