@@ -84,7 +84,6 @@ h1, h2, h3 {
   }
 }
 
-
 .kenapa-item img {
   width: 100%;
   border-radius: 12px;
@@ -108,7 +107,6 @@ h1, h2, h3 {
   padding: 1rem 0;
 }
 
-
 .slider-item {
   flex: 0 0 auto;
   width: 200px;
@@ -129,6 +127,17 @@ h1, h2, h3 {
 .slider-item p {
   margin-top: 0.5rem;
   font-weight: 600;
+}
+
+/* Menambahkan styling link di slider */
+.product-link {
+  text-decoration: none; /* Menghilangkan underline */
+  color: inherit; /* Warna link mengikuti warna teks default */
+}
+
+/* Menambahkan warna biru pada link saat hover */
+.product-link:hover {
+  color: #0071e3; /* Warna biru pada saat hover */
 }
 
 #video {
