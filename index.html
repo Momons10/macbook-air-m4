@@ -1,115 +1,146 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MacBook Air M4</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MacBook Air M4</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-content">
-            <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/macbook%20air.jpeg" alt="MacBook Image">
-            <div class="hero-text">
-                <h1>MacBook Air M4</h1>
-                <p class="subheading">Ringan, Cepat, dan Tahan Lama</p>
-                <div class="description">
-                    <p><strong>MacBook Air M4</strong> hadir sebagai pilihan utama bagi para profesional dan pelajar yang membutuhkan laptop tipis, ringan, namun bertenaga.</p>
-                    <p><strong>Ditenagai oleh chip M4 terbaru</strong> dari Apple, perangkat ini menawarkan performa hingga dua kali lipat lebih cepat dibandingkan model sebelumnya dengan chip M1, serta kemampuan GPU hingga 4 kali lebih cepat dibandingkan chip M2.</p>
-                    <p><strong>Baterainya mampu bertahan hingga 18 jam</strong>, memungkinkan Anda bekerja seharian tanpa perlu khawatir kehabisan daya.</p>
-                </div>
-                <a href="https://www.example.com" class="cta-btn">Beli Sekarang</a> <!-- Pastikan mengganti link ini sesuai kebutuhan -->
-            </div>
-        </div>
-    </section>
 
-    <!-- Kenapa Pilih MacBook Air M4 Section -->
-    <section id="kenapa-pilih">
-        <h2>Kenapa Pilih MacBook Air M4?</h2>
-        <div class="kenapa-grid">
-            <div class="kenapa-item">
-                <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/apple_macbook_air_13%20(1).webp" alt="MacBook Image">
-                <h3>Chip M4</h3>
-                <p>Kinerja maksimal dengan efisiensi daya yang luar biasa.</p>
-            </div>
-            <div class="kenapa-item">
-                <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/macbook%20air.webp" alt="MacBook Image">
-                <h3>Empat Warna Stylish</h3>
-                <p>Ekspresikan dirimu dengan warna yang elegan: Biru Langit, Perak, Pucat Metalik, dan Biru Temaram.</p>
-            </div>
-            <div class="kenapa-item">
-               <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/apple_macbook_air_13%20(7).webp" alt="MacBook Image">
-                <h3>Apple Intelligence</h3>
-                <p>AI yang dirancang untuk membantu pengguna berkomunikasi, bekerja, dan mengekspresikan diri dengan lebih baik melalui perangkat Apple.</p>
-            </div>
-            <div class="kenapa-item">
-                <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/macbook.webp" alt="MacBook Image">
-                <h3>Magic Keyboard</h3>
-                <p>Mengetik jadi lebih nyaman dan presisi dengan Magic Keyboard generasi terbaru.</p>
-            </div>
-            <div class="kenapa-item">
-               <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/apple_macbook_air_13%20(12).webp" alt="MacBook Image">
-                <h3>Kelebihan</h3>
-                <p>Cocok digunakan untuk sehari-hari.</p>
-            </div>
-            <div class="kenapa-item">
-                <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/apple_macbook_air_13%20(4).webp" alt="MacBook Image">
-                <h3>Layar dan Audio</h3>
-                <p>Sangat nyaman dimata dan ditelinga.</p>
-            </div>
+  <!-- Hero Section with Carousel -->
+  <section id="hero" class="mb-5">
+    <div class="hero-content d-flex flex-wrap align-items-center justify-content-between gap-4 p-4">
+      <div id="heroCarousel" class="carousel slide flex-grow-1" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/main/mackbook_people.jpg" class="d-block w-100" alt="MacBook People">
+          </div>
+          <div class="carousel-item">
+            <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/main/mackbook_side.jpg" class="d-block w-100" alt="MacBook Side">
+          </div>
+          <div class="carousel-item">
+            <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/main/mackbook_2.jpg" class="d-block w-100" alt="MacBook 2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/main/mackbook_3.jpg" class="d-block w-100" alt="MacBook 3">
+          </div>
+          <div class="carousel-item">
+            <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/main/mackbook_4.jpg" class="d-block w-100" alt="MacBook 4">
+          </div>
         </div>
-    </section>
+      </div>
 
-    <!-- Product Slider Section -->
-    <section id="product-slider">
-        <h2>Warna</h2>
-        <div class="slider-container">
-            <div class="slider-item">
-                <a href="#" class="product-link">
-                    <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/Midnight.webp" alt="MacBook Midnight">
-                    <p>Midnight</p>
-                </a>
-            </div>
-            <div class="slider-item">
-                <a href="#" class="product-link">
-                   <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/1b7fec68448a5d20f5905eeb66b9f30fd5ecbf4e/Silver.webp" alt="MacBook Silver">
-                    <p>Silver</p>
-                </a>
-            </div>
-            <div class="slider-item">
-                <a href="#" class="product-link">
-                  <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/1b7fec68448a5d20f5905eeb66b9f30fd5ecbf4e/Sky%20Blue.webp" alt="MacBook Sky Blue">
-                  <p>Sky Blue</p>
-                </a>
-            </div>
-            <div class="slider-item">
-                <a href="#" class="product-link">
-                    <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/Starlight.webp" alt="MacBook Starlight">
-                    <p>Starlight</p>
-                </a>
-            </div>
+      <div class="hero-text flex-grow-1">
+        <h1>MacBook Air M4</h1>
+        <p class="subheading">Ringan, Cepat, dan Tahan Lama</p>
+        <div class="description">
+          <p><strong>MacBook Air M4</strong> hadir sebagai pilihan utama bagi para profesional dan pelajar yang membutuhkan laptop tipis, ringan, namun bertenaga.</p>
+          <p><strong>Ditenagai oleh chip M4 terbaru</strong> dari Apple, perangkat ini menawarkan performa hingga dua kali lipat lebih cepat dibandingkan model sebelumnya dengan chip M1, serta kemampuan GPU hingga 4 kali lebih cepat dibandingkan chip M2.</p>
+          <p><strong>Baterainya mampu bertahan hingga 18 jam</strong>, memungkinkan Anda bekerja seharian tanpa perlu khawatir kehabisan daya.</p>
         </div>
-    </section>  
- <!-- YouTube Video Section -->
-    <section id="video">
-        <h2>Watch Our Latest Video</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/MIAjIkknlfc" frameborder="0" allowfullscreen></iframe>
-    </section>
-    <!-- Call to Action -->
-    <section id="purchase">
-        <div class="cta-banner">
-            <h2>Pesan Sekarang dan Rasakan Performa M4!</h2>
-            <a href="https://www.example.com" class="cta-btn">Beli Sekarang</a> <!-- Update link sesuai kebutuhan -->
-        </div>
-    </section>
+        <a href="https://www.example.com" class="cta-btn">Beli Sekarang</a>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Apple Inc. | <a href="#">Kebijakan Privasi</a> | <a href="#">Hubungi Kami</a></p>
-    </footer>
+  <!-- Kenapa Pilih MacBook Air M4 Section -->
+  <section id="kenapa-pilih">
+    <h2>Kenapa Pilih MacBook Air M4?</h2>
+    <div class="kenapa-grid">
+      <div class="kenapa-item">
+        <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/apple_macbook_air_13%20(1).webp" alt="Chip M4">
+        <h3>Chip M4</h3>
+        <p>Kinerja maksimal dengan efisiensi daya yang luar biasa.</p>
+      </div>
+      <div class="kenapa-item">
+        <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/macbook%20air.webp" alt="Warna Stylish">
+        <h3>Empat Warna Stylish</h3>
+        <p>Ekspresikan dirimu dengan warna elegan: Biru Langit, Perak, Pucat Metalik, dan Biru Temaram.</p>
+      </div>
+      <div class="kenapa-item">
+        <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/apple_macbook_air_13%20(7).webp" alt="Apple Intelligence">
+        <h3>Apple Intelligence</h3>
+        <p>AI yang dirancang untuk membantu pengguna berkomunikasi, bekerja, dan mengekspresikan diri lebih baik.</p>
+      </div>
+      <div class="kenapa-item">
+        <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/macbook.webp" alt="Magic Keyboard">
+        <h3>Magic Keyboard</h3>
+        <p>Mengetik jadi lebih nyaman dan presisi dengan Magic Keyboard generasi terbaru.</p>
+      </div>
+      <div class="kenapa-item">
+        <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/apple_macbook_air_13%20(12).webp" alt="Kelebihan">
+        <h3>Kelebihan</h3>
+        <p>Cocok digunakan untuk sehari-hari.</p>
+      </div>
+      <div class="kenapa-item">
+        <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/apple_macbook_air_13%20(4).webp" alt="Layar dan Audio">
+        <h3>Layar dan Audio</h3>
+        <p>Sangat nyaman di mata dan telinga.</p>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- Product Slider Section -->
+  <section id="product-slider">
+    <h2>Warna</h2>
+    <div class="slider-container">
+      <div class="slider-item">
+        <a href="#" class="product-link">
+          <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/Midnight.webp" alt="MacBook Midnight">
+          <p>Midnight</p>
+        </a>
+      </div>
+      <div class="slider-item">
+        <a href="#" class="product-link">
+          <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/1b7fec68448a5d20f5905eeb66b9f30fd5ecbf4e/Silver.webp" alt="MacBook Silver">
+          <p>Silver</p>
+        </a>
+      </div>
+      <div class="slider-item">
+        <a href="#" class="product-link">
+          <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/1b7fec68448a5d20f5905eeb66b9f30fd5ecbf4e/Sky%20Blue.webp" alt="MacBook Sky Blue">
+          <p>Sky Blue</p>
+        </a>
+      </div>
+      <div class="slider-item">
+        <a href="#" class="product-link">
+          <img src="https://raw.githubusercontent.com/Momons10/macbook-air-m4/7d09b393dc3d456073a239cb78d636e3f95bc9e2/Starlight.webp" alt="MacBook Starlight">
+          <p>Starlight</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- YouTube Video Section -->
+  <section id="video">
+    <h2>Watch Our Latest Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MIAjIkknlfc" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="purchase">
+    <div class="cta-banner">
+      <h2>Pesan Sekarang dan Rasakan Performa M4!</h2>
+      <a href="https://www.example.com" class="cta-btn">Beli Sekarang</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Apple Inc. | <a href="#">Kebijakan Privasi</a> | <a href="#">Hubungi Kami</a></p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
