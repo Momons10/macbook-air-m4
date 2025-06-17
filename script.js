@@ -13,3 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     console.log("MacBook Air M4 Landing Page Loaded");
 });
+// Menambahkan event untuk memperhalus transisi
+const carousel = document.querySelector('#heroCarousel');
+const carouselItems = carousel.querySelectorAll('.carousel-item');
+
+carousel.addEventListener('slid.bs.carousel', () => {
+    // Menambahkan kelas untuk efek smooth ketika slide berpindah
+    carouselItems.forEach(item => {
+        item.style.transition = 'transform 0.5s ease-in-out';
+    });
+});
