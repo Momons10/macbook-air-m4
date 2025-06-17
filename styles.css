@@ -11,6 +11,15 @@ body {
   color: #1a1a1a;
   line-height: 1.6;
 }
+#heroCarousel .carousel-item img {
+    object-fit: cover; /* Memastikan gambar memenuhi kontainer tanpa terdistorsi */
+    width: 100%; /* Membuat gambar menyesuaikan dengan lebar kontainer */
+    height: 100%; /* Membuat gambar menyesuaikan dengan tinggi kontainer */
+    max-height: 500px; /* Atur tinggi maksimum agar gambar tidak terdistorsi */
+}
+#heroCarousel .carousel-item {
+    transition: transform 0.5s ease-in-out; /* Menambahkan transisi halus untuk perubahan gambar */
+}
 
 /* Hero Section */
 #hero {
